@@ -26,6 +26,7 @@ pip install snowflake-snowpark-python pandas
 ```bash
 git clone https://github.com/your-repo/snowpark-bulk-excel-loader.git
 cd snowpark-bulk-excel-loader
+```
 
 ### **Modify the Config file**
 - In the config.py, you can either manually define the input file path and Snowflake Table name, or you can create a function inside the config file that automatically creates input_files and output_files list based on logic specified
@@ -35,7 +36,9 @@ cd snowpark-bulk-excel-loader
 - If you are running in the Snowflake Notebook, use active session in the snowpark_bulk_load_.ipynb
 
 ### **Run the code**
-- python bulk_excel_to_snowflake.py
+```bash
+python bulk_excel_to_snowflake.py
+```
 - Or you can run from Snowflake Notebook (use ipynb file)
 
 ### **Project Structure**
@@ -46,5 +49,5 @@ snowpark-bulk-excel-loader/
 ├── snowpark_bulk_load_.ipynb           # Snowflake Notebook script for loading data
 ├── config.py                           # Configuration file for input/output and Snowflake settings
 └── README.md                           # Documentation for the project
-
+```
 
