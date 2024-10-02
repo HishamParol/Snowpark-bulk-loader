@@ -45,7 +45,7 @@ python bulk_excel_to_snowflake.py
 
 ### **Project Structure**
 ```bash
-snowpark-bulk-excel-loader/
+snowpark-bulk-loader/
 │
 ├── snowpark_bulk_load_python_file.py   # Python script for loading data
 ├── snowpark_bulk_load_.ipynb           # Snowflake Notebook script for loading data
