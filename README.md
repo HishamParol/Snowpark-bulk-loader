@@ -20,6 +20,7 @@ Ensure the following requirements are met:
 Install the required packages:
 ```bash
 pip install snowflake-snowpark-python pandas
+```
 
 ### **Clone the Repository**
 ```bash
