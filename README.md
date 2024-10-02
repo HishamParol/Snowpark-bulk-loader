@@ -7,7 +7,7 @@ This project provides a Python-based solution to load bulk Excel/CSV files into 
 - Utilizes **Snowpark** for seamless data transformation and integration with Snowflake.
 - Automated data pipeline to handle multiple input files and output tables.
 - Customizable for various data sources and Snowflake schema configurations.
-- Error handling and logging to track pipeline execution and file loads.
+
   
 ## **Prerequisites**
 Ensure the following requirements are met:
