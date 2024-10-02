@@ -25,6 +25,8 @@ pip install snowflake-snowpark-python pandas
 ### **Clone the Repository**
 ```bash
 git clone https://github.com/your-repo/snowpark-bulk-excel-loader.git
+```
+```bash
 cd snowpark-bulk-excel-loader
 ```
 
