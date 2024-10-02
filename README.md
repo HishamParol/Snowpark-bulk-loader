@@ -20,3 +20,30 @@ Ensure the following requirements are met:
 Install the required packages:
 ```bash
 pip install snowflake-snowpark-python pandas
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/your-repo/snowpark-bulk-excel-loader.git
+cd snowpark-bulk-excel-loader
+
+### **Modify the Config file**
+- In the config.py, you can either manually define the input file path and Snowflake Table name, or you can create a function inside the config file that automatically creates input_files and output_files list based on logic specified
+
+### **Snowflake Credentials**
+- Update the Snowflake credentials in the snowpark_bulk_load_python_file.py script, replacing placeholders with your account details.
+- If you are running in the Snowflake Notebook, use active session in the snowpark_bulk_load_.ipynb
+
+### **Run the code**
+- python bulk_excel_to_snowflake.py
+- Or you can run from Snowflake Notebook (use ipynb file)
+
+### **Project Structure**
+```bash
+snowpark-bulk-excel-loader/
+│
+├── snowpark_bulk_load_python_file.py   # Python script for loading data
+├── snowpark_bulk_load_.ipynb           # Snowflake Notebook script for loading data
+├── config.py                           # Configuration file for input/output and Snowflake settings
+└── README.md                           # Documentation for the project
+
+
